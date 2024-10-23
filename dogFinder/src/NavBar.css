@@ -1,0 +1,22 @@
+#navDiv {
+  height: 4vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(187, 14, 187);
+}
+
+#navDiv > p {
+  display: inline;
+  margin: 0.75rem;
+  color: white;
+}
+
+#navDiv > p > a {
+  color: white;
+  text-decoration: none;
+}
+
+#navDiv > p > a.active {
+  font-weight: bolder;
+}
